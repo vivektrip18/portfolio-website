@@ -2,7 +2,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { HomePage } from './pages/HomePage'
-import { Projects } from './pages/Projects'
 import { About } from './pages/About'
 
 function App() {
@@ -10,12 +9,15 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route element={<HomePage/>} path='/'/>
-          <Route element={<Projects/>} path='/projects'/>
-          <Route element={<About/>} path='/about'/>
+        <div className='scroll-container'>
+          <Routes>
+            <Route element={<HomePage />} path='/' />
+            <Route element={<About />} path='/about' />
 
-        </Routes>
+          </Routes>
+
+        </div>
+
       </BrowserRouter>
     </>
   )
