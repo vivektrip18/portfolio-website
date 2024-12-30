@@ -9,16 +9,17 @@ export const HomePage = () => {
 
 
   return (
-    <div className="gradient ">
+    <div className="setting-z-index">
       <Navbar />
+      <div className="blob-overlay justify-center items-center">
+          <Blob />
+        </div>
       <div className="p-20  m-10 background-image">
         <div className="text-white font-bold text-8xl" >
           <p>Hi,</p>
           I'm Vivek Tripathi
         </div>
-        {/* <div className="blob-overlay justify-center items-center">
-          <Blob />
-        </div> */}
+        
 
         <div className="text-white font-semibold text-2xl pt-6 pl-2">
           A software engineer from Pune, MH.

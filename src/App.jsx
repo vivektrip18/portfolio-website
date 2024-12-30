@@ -8,14 +8,12 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className='scroll-container'>
-          <Routes>
-            <Route element={<HomePage />} path='/' />
-          </Routes>
-
-        </div>
+        <Routes>
+          <Route element={<HomePage />} path='/' />
+        </Routes>
 
       </BrowserRouter>
+
     </>
   )
 }
