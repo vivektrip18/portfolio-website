@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../components/Navbar";
 import { Projects } from "../components/Projects";
 import { Technologies } from "../components/Technologies";
+import { Contactme } from "../components/Contactme";
 
 export const HomePage = () => {
 
@@ -22,6 +23,7 @@ export const HomePage = () => {
       </div>
       <Projects/>
       <Technologies/>
+      <Contactme/>
     </div>
   );
 };
