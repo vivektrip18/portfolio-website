@@ -21,14 +21,14 @@ export const Contactme = () => {
 
         emailjs
             .send(
-                "", 
-                "", 
+                "service_vwdhzne", 
+                "template_nkgupxb", 
                 {
                     user_email: formData.email,
                     subject: formData.subject,
                     message: formData.message,
                 },
-                "" 
+                "Axy3-dX4gC6-lifIF" 
             )
             .then(
                 (result) => {

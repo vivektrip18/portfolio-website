@@ -9,6 +9,7 @@ export default {
     colors:{
       "white":"#ffffff",
       "black":"#000000",
+      "gray":"#b6b8b6",
     }
   },
   plugins: [],

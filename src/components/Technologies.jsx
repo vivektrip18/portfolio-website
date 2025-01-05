@@ -20,109 +20,107 @@ import postman from "../images/postman.png";
 import docker from "../images/docker.png";
 
 
-
-
 export const Technologies = () => {
     return (
-        <div className=" pl-20  ml-10 mt-20 justify-center shadow-3xl pb-10 setting-z-index">
-            <p className="text-white text-4xl font-semibold ">TECHNOLOGIES</p>
+        <div className=" md:pl-20  md:ml-10 pl-5 justify-center shadow-3xl pb-10 setting-z-index">
+            <p className="text-white md:text-4xl text:lg font-semibold ">TECHNOLOGIES</p>
 
-            <div className="grid grid-cols-8 grid-rows-3 gap-6 pt-10 pr-20">
+            <div className="grid lg:grid-cols-8  md:grid-cols-5  md:gap-6 sm:grid-cols-5 grid-cols-4 gap-3 pt-10 lg:pr-20 pr-5">
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={reactjs} alt="ReactJS" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={reactjs} alt="ReactJS" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={jslogo} alt="JS" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={jslogo} alt="JS" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={htmllogo} alt="HTML" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={htmllogo} alt="HTML" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={css3logo} alt="CSS" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={css3logo} alt="CSS" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
 
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.9" }}>
-                    <img src={cpplogo} alt="CPP" className="rounded-3xl overflow-hidden w-[89px] h-[92px]" />
+                    <img src={cpplogo} alt="CPP" className="rounded-3xl overflow-hidden md:w-[89px] md:h-[92px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={tslogo} alt="TS" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={tslogo} alt="TS" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={nodejslogo} alt="NodeJS" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={nodejslogo} alt="NodeJS" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={exjslogo} alt="EXJS" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={exjslogo} alt="EXJS" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={mysqllogo} alt="MYSQL" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={mysqllogo} alt="MYSQL" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={mongologo} alt="MongoDB" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={mongologo} alt="MongoDB" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={pythonlogo} alt="Python" className="rounded-3xl overflow-hidden w-[85px] h-[95px]" />
+                    <img src={pythonlogo} alt="Python" className="rounded-3xl overflow-hidden md:w-[85px] md:h-[95px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={tailwindcss} alt="Tailwind" className="rounded-3xl overflow-hidden w-[95px] h-[90px] bg-white p-1" />
+                    <img src={tailwindcss} alt="Tailwind" className="rounded-3xl overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px] bg-white p-1" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={nextui} alt="NextUI" className="rounded-3xl overflow-hidden w-[95px] h-[90px]" />
+                    <img src={nextui} alt="NextUI" className="rounded-3xl overflow-hidden bg-black md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={motionlogo} alt="Motion" className="rounded-full overflow-hidden w-[90px] h-[92px]" />
+                    <img src={motionlogo} alt="Motion" className="rounded-full overflow-hidden md:w-[90px] md:h-[92px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={psql} alt="PSQL" className="rounded-3xl p-3 bg-white overflow-hidden w-[95px] h-[90px]" />
+                    <img src={psql} alt="PSQL" className="rounded-3xl p-3 bg-white overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={cflogo} alt="Cloudflare" className="rounded-3xl    overflow-hidden w-[95px] h-[90px]" />
+                    <img src={cflogo} alt="Cloudflare" className="rounded-3xl    overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={prisma} alt="prisma" className="rounded-3xl p-2 bg-white overflow-hidden w-[95px] h-[90px]" />
+                    <img src={prisma} alt="prisma" className="rounded-3xl p-2 bg-white overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={postman} alt="Postman" className="rounded-full  overflow-hidden w-[90px] h-[90px]" />
+                    <img src={postman} alt="Postman" className="rounded-full  overflow-hidden md:w-[90px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: "1.03" }}
                     whileTap={{ scale: "0.98" }}>
-                    <img src={docker} alt="Docker" className="rounded-3xl p-3 bg-white overflow-hidden w-[95px] h-[90px]" />
+                    <img src={docker} alt="Docker" className="rounded-3xl p-3 bg-white overflow-hidden md:w-[95px] md:h-[90px] w-[60px] h-[60px]" />
                 </motion.div>
                 
 
