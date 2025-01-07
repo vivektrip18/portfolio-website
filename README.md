@@ -3,7 +3,7 @@
 This is my personal portfolio website showcasing my projects and skills.
 
 ## Link
-https://bright-piroshki-09d12c.netlify.app/
+https://vivektripathi.in/
 
 ## Features
 
