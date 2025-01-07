@@ -1,26 +1,14 @@
-import React, { Suspense } from "react";
+import React from "react";
 import { Navbar } from "../components/Navbar";
 import { Projects } from "../components/Projects";
 import { Technologies } from "../components/Technologies";
 import { Contactme } from "../components/Contactme";
-import { Canvas } from "@react-three/fiber";
-import { Environment, OrbitControls } from "@react-three/drei";
-import Blob from "../components/Blob.jsx";
+
 
 export const HomePage = () => {
   return (
     <div className="setting-z-index space-y-10">
       <Navbar />
-      {/* <div className="blob-overlay pt-20 mt-20">
-        <Canvas>
-          <ambientLight intensity={2}/>
-          <OrbitControls/>
-          <Suspense>
-            <Blob/>
-          </Suspense>
-        </Canvas>
-      </div> */}
-
       <div className="md:p-20  pt-20 pl-5  background-image">
         <div className="font-bold lg:text-8xl md:text-5xl sm:text-3xl text-2xl" >
           <p className="text-gray">Hi,</p>

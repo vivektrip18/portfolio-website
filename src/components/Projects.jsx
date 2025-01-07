@@ -9,38 +9,43 @@ export const Projects = () => {
     return (
         <div className="h-fit setting-z-index md:mt-20 pt-5 p-10" >
 
-            <p className="text-white font-semibold  lg:text-4xl md:text-3xl sm:text:2xl text-lg">PROJECTS</p>
-            <div className="flex  md:pr-10 md:ml-20 md:mr-20 md:mb-20 pr-5  rounded-3xl grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-10 " >
+
+            <div className="  md:pr-10 md:ml-20 md:mr-20 md:mb-20 pr-5  " >
+                <p className="text-white font-semibold  lg:text-4xl md:text-3xl sm:text:2xl text-lg">PROJECTS</p>
+                <div className=" flex grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-10">
+                    <motion.div
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.8 }}
+                        className=" rounded-2xl "
+                    >
+                        <Animedb_card />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.8 }}
+                        className=" rounded-3xl"
+                    >
+                        <Blogging_card />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.8 }}
+                        className=" rounded-3xl "
+                    >
+                        <Vc_card />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.8 }}
+                        className="rounded-3xl "
+                    >
+                        <Kawasaki_card />
+                    </motion.div>
+
+                </div>
 
 
-                <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.8 }}
-                    className=" rounded-2xl "
-                >
-                    <Animedb_card />
-                </motion.div>
-                <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.8 }}
-                    className=" rounded-3xl"
-                >
-                    <Blogging_card />
-                </motion.div>
-                <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.8 }}
-                    className=" rounded-3xl "
-                >
-                    <Vc_card />
-                </motion.div>
-                <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.8 }}
-                    className="rounded-3xl "
-                >
-                    <Kawasaki_card />
-                </motion.div>
+
             </div>
         </div>
     )

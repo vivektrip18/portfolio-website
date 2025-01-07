@@ -7,7 +7,7 @@
 	background-attachment: fixed;
 	overflow:hidden;
 	overflow-y:scroll;
-	animation: gradient-animation 6s ease infinite;
+	animation: gradient-animation 5.5s ease infinite;
 	z-index:-1;
 }
 
@@ -23,7 +23,7 @@
 	}
 }
 ::-webkit-scrollbar {
-	width: 2px;
+	width: 0px;
   }
 
 .navbar{
